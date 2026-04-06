@@ -1,0 +1,40 @@
+# Variables de entorno (NUNCA subir esto a GitHub)
+.env
+.env.local
+.env.production
+
+# Archivos de configuración sensibles
+config.local.php
+
+# Dependencias
+/vendor/
+node_modules/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+
+# Archivos temporales PHP
+*.tmp
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de testing/debug (no necesarios en producción)
+test_api.php
+test_datos.php
+test_login.php
+login_test.html
+generar_hashes.php
+generate_hash.php
+hash_nuevo.php
+ver_usuarios.php
